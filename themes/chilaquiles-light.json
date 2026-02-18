@@ -1,5 +1,253 @@
 {
   "name": "Chilaquiles Light",
   "type": "light",
-  "tokenColors": []
+  "tokenColors": [
+    {
+      "name": "Default text",
+      "scope": ["source", "text"],
+      "settings": {
+        "foreground": "#2A1810"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["comment", "comment.line", "comment.block", "comment.block.documentation"],
+      "settings": {
+        "foreground": "#7A5547",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords and storage",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.import",
+        "keyword.control.export",
+        "storage",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#9B2D20",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.arithmetic"
+      ],
+      "settings": {
+        "foreground": "#9B2D20"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.template",
+        "string.interpolated"
+      ],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "Template expression punctuation",
+      "scope": ["punctuation.definition.template-expression", "punctuation.section.embedded"],
+      "settings": {
+        "foreground": "#9B2D20"
+      }
+    },
+    {
+      "name": "Numbers and constants",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.language",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#1B5E20"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "variable.other", "variable.other.readwrite", "variable.parameter"],
+      "settings": {
+        "foreground": "#2A1810"
+      }
+    },
+    {
+      "name": "Constants / enum members",
+      "scope": ["variable.other.constant", "variable.other.enummember"],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "Types and classes",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.interface",
+        "entity.name.enum",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#8B2318"
+      }
+    },
+    {
+      "name": "Type annotations (TS/Rust)",
+      "scope": ["entity.name.type.primitive", "support.type.primitive", "keyword.type"],
+      "settings": {
+        "foreground": "#8B2318",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Object properties / member access",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "Imports / module names",
+      "scope": ["entity.name.module", "support.module", "meta.import string"],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "Decorators / annotations",
+      "scope": ["meta.decorator", "punctuation.decorator", "entity.name.function.decorator"],
+      "settings": {
+        "foreground": "#9B2D20",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML / JSX tags",
+      "scope": ["entity.name.tag", "meta.tag"],
+      "settings": {
+        "foreground": "#9B2D20"
+      }
+    },
+    {
+      "name": "HTML / JSX attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#7A5C00"
+      }
+    },
+    {
+      "name": "CSS selectors",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#9B2D20"
+      }
+    },
+    {
+      "name": "CSS properties",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#1B5E20"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "punctuation.definition",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor"
+      ],
+      "settings": {
+        "foreground": "#6B4F3A"
+      }
+    },
+    {
+      "name": "Brackets",
+      "scope": ["punctuation.definition.parameters", "punctuation.definition.block", "meta.brace"],
+      "settings": {
+        "foreground": "#2A1810"
+      }
+    },
+    {
+      "name": "Markdown headings",
+      "scope": ["markup.heading", "entity.name.section"],
+      "settings": {
+        "foreground": "#9B2D20",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#7A5C00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#2A1810",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown inline code",
+      "scope": ["markup.inline.raw"],
+      "settings": {
+        "foreground": "#1B5E20"
+      }
+    },
+    {
+      "name": "Markdown links",
+      "scope": ["markup.underline.link", "string.other.link"],
+      "settings": {
+        "foreground": "#7A5C00",
+        "fontStyle": "underline"
+      }
+    }
+  ]
 }
