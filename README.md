@@ -1,16 +1,33 @@
-# chilaquiles-theme README
+# Chilaquiles Theme
 
-## Working with Markdown
+A VS Code color theme inspired by the Mexican dish chilaquiles — warm chili reds, toasted corn golds, and cilantro greens on a charred dark background (or crisp crema white for light mode).
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Variants
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- **Chilaquiles Dark** — Night Comal background with vibrant accent colors
+- **Chilaquiles Light** — Queso Fresco background with contrast-adjusted tones
 
-## For more information
+## The Palette
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+| Role      | Color                       |
+| --------- | --------------------------- |
+| Keywords  | Burnt Tomato `#C44536`      |
+| Strings   | Toasted Corn Gold `#D4A017` |
+| Functions | Cilantro Green `#2E7D32`    |
+| Types     | Deep Chili Red `#B23A2B`    |
+| Comments  | Warm Adobe `#8B6355`        |
 
-**Enjoy!**
+## Installation
+
+Install via the VS Code Marketplace: search for **Chilaquiles Theme**.
+
+Then: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) → select **Chilaquiles Dark** or **Chilaquiles Light**.
+
+## Roadmap
+
+- v1: Syntax highlighting (tokenColors)
+- v2: Full editor UI colors (sidebar, tabs, status bar, terminal)
+
+## License
+
+MIT

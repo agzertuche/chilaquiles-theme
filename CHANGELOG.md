@@ -1,9 +1,9 @@
-# Change Log
+# Changelog
 
-All notable changes to the "chilaquiles-theme" extension will be documented in this file.
+## [0.1.0] - 2026-02-17
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
-
-- Initial release
+- Chilaquiles Dark theme with syntax highlighting
+- Chilaquiles Light theme with contrast-adjusted palette
+- Coverage for: JS/TS, JSX/TSX, CSS, HTML, Python, Rust, Markdown
