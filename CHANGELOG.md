@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0] - 2026-02-19
+
+### Added
+
+- Semantic token support for both Dark and Light variants (TypeScript/JavaScript language server integration).
+- TypeScript/JavaScript language-specific token overrides for generics, arrow functions, interface names, and built-in types.
+- CI/CD: GitHub Actions workflow auto-publishes to VS Code Marketplace when `package.json` version is bumped on `main`.
+
 ## [0.2.0] - 2026-02-19
 
 ### Added
