@@ -400,5 +400,36 @@
         "fontStyle": "underline"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "namespace": "#E8B84B",
+    "type": "#D45C4C",
+    "type.defaultLibrary": { "foreground": "#D45C4C", "italic": true },
+    "class": "#D45C4C",
+    "class.defaultLibrary": { "foreground": "#D45C4C", "italic": true },
+    "enum": "#D45C4C",
+    "interface": { "foreground": "#D45C4C", "italic": true },
+    "typeParameter": { "foreground": "#D45C4C", "italic": true },
+    "function": "#6DBF72",
+    "function.defaultLibrary": { "foreground": "#6DBF72", "italic": true },
+    "method": "#6DBF72",
+    "macro": "#E05C4B",
+    "variable": "#F5F1E8",
+    "variable.readonly": "#E8C96A",
+    "variable.defaultLibrary": { "foreground": "#F5F1E8", "italic": true },
+    "parameter": { "foreground": "#F5F1E8", "italic": true },
+    "property": "#E8B84B",
+    "property.readonly": { "foreground": "#E8C96A", "italic": true },
+    "enumMember": "#E8C96A",
+    "event": "#E05C4B",
+    "keyword": "#E05C4B",
+    "modifier": { "foreground": "#E05C4B", "bold": true },
+    "comment": { "foreground": "#A67B6A", "italic": true },
+    "string": "#E8B84B",
+    "number": "#E8C96A",
+    "regexp": "#6DBF72",
+    "operator": "#E05C4B",
+    "decorator": { "foreground": "#E05C4B", "italic": true },
+    "label": "#B8917A"
+  }
 }
