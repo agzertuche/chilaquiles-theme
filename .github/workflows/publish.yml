@@ -1,0 +1,39 @@
+# .github/workflows/publish.yml
+name: Publish Extension
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'package.json'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check if version changed
+        id: version-check
+        run: |
+          git fetch --depth=2
+          PREV=$(git show HEAD~1:package.json | node -pe "JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).version" 2>/dev/null || echo "none")
+          CURR=$(node -pe "require('./package.json').version")
+          echo "prev=$PREV" >> $GITHUB_OUTPUT
+          echo "curr=$CURR" >> $GITHUB_OUTPUT
+          if [ "$PREV" != "$CURR" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install vsce
+        if: steps.version-check.outputs.changed == 'true'
+        run: npm install -g @vscode/vsce
+
+      - name: Publish to VS Code Marketplace
+        if: steps.version-check.outputs.changed == 'true'
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: vsce publish --pat $VSCE_PAT
