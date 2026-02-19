@@ -133,7 +133,60 @@
     "gitDecoration.deletedResourceForeground": "#C44536",
     "gitDecoration.untrackedResourceForeground": "#2E7D32",
     "gitDecoration.ignoredResourceForeground": "#8B6355",
-    "gitDecoration.conflictingResourceForeground": "#E8B84B"
+    "gitDecoration.conflictingResourceForeground": "#E8B84B",
+    "diffEditor.insertedTextBackground": "#6DBF7220",
+    "diffEditor.removedTextBackground": "#E05C4B20",
+    "diffEditor.border": "#2A1A10",
+    "diffEditor.diagonalFill": "#2A1A1080",
+    "merge.currentHeaderBackground": "#6DBF7240",
+    "merge.currentContentBackground": "#6DBF7220",
+    "merge.incomingHeaderBackground": "#E8B84B40",
+    "merge.incomingContentBackground": "#E8B84B20",
+    "merge.border": "#2A1A10",
+    "editorSuggestWidget.background": "#241408",
+    "editorSuggestWidget.border": "#3A2818",
+    "editorSuggestWidget.foreground": "#F5F1E8",
+    "editorSuggestWidget.selectedBackground": "#3A2818",
+    "editorSuggestWidget.highlightForeground": "#E8B84B",
+    "editorHoverWidget.background": "#241408",
+    "editorHoverWidget.border": "#3A2818",
+    "editorHoverWidget.foreground": "#F5F1E8",
+    "peekView.border": "#E05C4B",
+    "peekViewEditor.background": "#1E0E04",
+    "peekViewResult.background": "#241408",
+    "peekViewTitle.background": "#2A1A10",
+    "peekViewTitleLabel.foreground": "#F5F1E8",
+    "breadcrumb.foreground": "#B8917A",
+    "breadcrumb.focusForeground": "#F5F1E8",
+    "breadcrumb.activeSelectionForeground": "#F5F1E8",
+    "minimap.background": "#1A1008",
+    "minimapSlider.background": "#B8917A20",
+    "minimapSlider.hoverBackground": "#B8917A40",
+    "minimapSlider.activeBackground": "#B8917A60",
+    "editorStickyScroll.background": "#1A1008",
+    "editorStickyScrollHover.background": "#241408",
+    "editorInlayHint.background": "#3A281880",
+    "editorInlayHint.foreground": "#A67B6A",
+    "editorBracketHighlight.foreground1": "#E8B84B",
+    "editorBracketHighlight.foreground2": "#6DBF72",
+    "editorBracketHighlight.foreground3": "#E05C4B",
+    "editorBracketHighlight.foreground4": "#E8C96A",
+    "editorBracketHighlight.foreground5": "#D45C4C",
+    "editorBracketHighlight.foreground6": "#B8917A",
+    "editorGutter.modifiedBackground": "#E8B84B",
+    "editorGutter.addedBackground": "#6DBF72",
+    "editorGutter.deletedBackground": "#E05C4B",
+    "quickInput.background": "#241408",
+    "quickInput.foreground": "#F5F1E8",
+    "quickInputList.focusBackground": "#3A2818",
+    "pickerGroup.foreground": "#E8B84B",
+    "pickerGroup.border": "#3A2818",
+    "editorOverviewRuler.errorForeground": "#E05C4B",
+    "editorOverviewRuler.warningForeground": "#E8B84B",
+    "editorOverviewRuler.infoForeground": "#6DBF72",
+    "editor.wordHighlightBackground": "#B8917A30",
+    "editor.wordHighlightStrongBackground": "#B8917A50",
+    "editorLink.activeForeground": "#E8B84B"
   },
   "tokenColors": [
     {
@@ -438,7 +491,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 type assertion angle brackets",
+      "name": "TS/JS — type assertion angle brackets",
       "scope": [
         "meta.type.assertion.ts",
         "meta.type.assertion.tsx"
@@ -448,7 +501,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 generic type parameters in calls",
+      "name": "TS/JS — generic type parameters in calls",
       "scope": [
         "meta.type.parameters.ts entity.name.type",
         "meta.type.parameters.tsx entity.name.type"
@@ -459,7 +512,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 arrow function",
+      "name": "TS/JS — arrow function",
       "scope": [
         "storage.type.function.arrow.ts",
         "storage.type.function.arrow.tsx",
@@ -470,7 +523,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 interface/type name",
+      "name": "TS/JS — interface/type name",
       "scope": [
         "entity.name.type.interface.ts",
         "entity.name.type.alias.ts"
@@ -481,7 +534,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 built-in types (string, number, boolean)",
+      "name": "TS/JS — built-in types (string, number, boolean)",
       "scope": [
         "support.type.primitive.ts",
         "support.type.primitive.tsx",
@@ -493,7 +546,7 @@
       }
     },
     {
-      "name": "TS/JS \u2014 import/export keywords",
+      "name": "TS/JS — import/export keywords",
       "scope": [
         "keyword.control.import.ts",
         "keyword.control.export.ts",
@@ -508,6 +561,7 @@
       }
     }
   ],
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "namespace": "#E8B84B",
     "type": "#D45C4C",

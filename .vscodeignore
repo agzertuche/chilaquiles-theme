@@ -2,3 +2,9 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+docs/**
+scripts/**
+.github/**
+CLAUDE.md
+.markdownlint.json
+.claude/**

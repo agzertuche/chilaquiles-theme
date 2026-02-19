@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0] - 2026-02-19
+
+### Added
+
+- 49 new UI color keys (185 total) covering: diff editor, merge conflicts, suggest widget, hover widget, peek view, breadcrumb, minimap, sticky scroll, inlay hints, bracket colorization, gutter indicators, quick input, overview ruler, word highlight, and editor link.
+- Explicit `semanticHighlighting: true` flag in both theme files per VS Code best practices.
+- `package.json`: added `homepage` and `bugs` fields for Marketplace listing.
+
+### Changed
+
+- `.vscodeignore`: expanded exclusions to reduce published package size (excludes docs, scripts, CI config, dev files).
+
 ## [0.4.0] - 2026-02-19
 
 ### Changed
