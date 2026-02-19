@@ -399,6 +399,52 @@
         "foreground": "#7A5C00",
         "fontStyle": "underline"
       }
+    },
+    {
+      "name": "TS/JS — type assertion angle brackets",
+      "scope": ["meta.type.assertion.ts", "meta.type.assertion.tsx"],
+      "settings": {
+        "foreground": "#7A1E10"
+      }
+    },
+    {
+      "name": "TS/JS — generic type parameters in calls",
+      "scope": ["meta.type.parameters.ts entity.name.type", "meta.type.parameters.tsx entity.name.type"],
+      "settings": {
+        "foreground": "#7A1E10",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS/JS — arrow function",
+      "scope": ["storage.type.function.arrow.ts", "storage.type.function.arrow.tsx", "storage.type.function.arrow.js"],
+      "settings": {
+        "foreground": "#8B2318"
+      }
+    },
+    {
+      "name": "TS/JS — interface/type name",
+      "scope": ["entity.name.type.interface.ts", "entity.name.type.alias.ts"],
+      "settings": {
+        "foreground": "#7A1E10",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS/JS — built-in types (string, number, boolean)",
+      "scope": ["support.type.primitive.ts", "support.type.primitive.tsx", "support.type.primitive.js"],
+      "settings": {
+        "foreground": "#7A1E10",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS/JS — import/export keywords",
+      "scope": ["keyword.control.import.ts", "keyword.control.export.ts", "keyword.control.import.tsx", "keyword.control.export.tsx", "keyword.control.import.js", "keyword.control.export.js"],
+      "settings": {
+        "foreground": "#8B2318",
+        "fontStyle": "bold"
+      }
     }
   ],
   "semanticTokenColors": {
