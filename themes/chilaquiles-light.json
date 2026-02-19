@@ -85,7 +85,7 @@
     "terminal.ansiGreen": "#1B5E20",
     "terminal.ansiYellow": "#7A5C00",
     "terminal.ansiBlue": "#2471A3",
-    "terminal.ansiMagenta": "#8B2318",
+    "terminal.ansiMagenta": "#9B2D20",
     "terminal.ansiCyan": "#1A6B62",
     "terminal.ansiWhite": "#EDE4D4",
     "terminal.ansiBrightBlack": "#7A5547",
@@ -93,7 +93,7 @@
     "terminal.ansiBrightGreen": "#2E7D32",
     "terminal.ansiBrightYellow": "#A0720A",
     "terminal.ansiBrightBlue": "#2E86C1",
-    "terminal.ansiBrightMagenta": "#9B2D20",
+    "terminal.ansiBrightMagenta": "#B03020",
     "terminal.ansiBrightCyan": "#1F8B80",
     "terminal.ansiBrightWhite": "#FDF8F0",
     "terminalCursor.foreground": "#7A5C00",
@@ -232,7 +232,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#7A5C00"
+        "foreground": "#5C4400"
       }
     },
     {
@@ -258,7 +258,7 @@
       "name": "Constants / enum members",
       "scope": ["variable.other.constant", "variable.other.enummember"],
       "settings": {
-        "foreground": "#7A5C00"
+        "foreground": "#5C4400"
       }
     },
     {
