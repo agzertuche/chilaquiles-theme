@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0] - 2026-02-19
+
+### Changed
+
+- Improved color palette: all token colors now pass WCAG AA (4.5:1) on both variants.
+- Dark theme: functions changed from dark forest green (`#2E7D32`) to bright cilantro green (`#6DBF72`) for readability.
+- Benchmarked against Dracula, Monokai, and Night Owl; adopted higher-lightness accents on dark background.
+
+### Added
+
+- `docs/palette.md`: palette reference with contrast ratios for all token roles.
+- `scripts/check-contrast.js`: WCAG contrast ratio utility.
+
 ## [0.3.1] - 2026-02-19
 
 ### Fixed
