@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.1] - 2026-02-19
+
+### Fixed
+
+- CI/CD: publish workflow now uses Node 20 (required by vsce) and also publishes to Open VSX Registry.
+
 ## [0.3.0] - 2026-02-19
 
 ### Added
@@ -11,6 +17,7 @@
 ## [0.2.0] - 2026-02-19
 
 ### Added
+
 - Full editor UI colors for both Dark and Light variants: activity bar, sidebar, tabs, status bar, terminal, notifications, input fields, buttons, scrollbars, and git decorations.
 
 ## [0.1.0] - 2026-02-17
