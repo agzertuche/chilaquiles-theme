@@ -2,38 +2,24 @@ name: Publish Extension
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'package.json'
+    tags:
+      - 'v*'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
 
-      - name: Check if version changed
-        id: version-check
-        run: |
-          PREV=$(git show HEAD~1:package.json | python3 -c "import json,sys; print(json.load(sys.stdin)['version'])" 2>/dev/null || echo "none")
-          CURR=$(python3 -c "import json; print(json.load(open('package.json'))['version'])")
-          echo "prev=$PREV"
-          echo "curr=$CURR"
-          if [ "$PREV" != "$CURR" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
 
       - name: Install vsce
-        if: steps.version-check.outputs.changed == 'true'
         run: npm install -g @vscode/vsce
 
       - name: Publish to VS Code Marketplace
-        if: steps.version-check.outputs.changed == 'true'
+        if: success()
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: vsce publish --pat $VSCE_PAT
+        run: vsce publish
