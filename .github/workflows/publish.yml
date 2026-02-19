@@ -15,11 +15,17 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: Install vsce
-        run: npm install -g @vscode/vsce
+      - name: Install tools
+        run: npm install -g @vscode/vsce ovsx
 
       - name: Publish to VS Code Marketplace
         if: success()
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: vsce publish
+
+      - name: Publish to Open VSX Registry
+        if: success()
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: ovsx publish --pat $OVSX_PAT
