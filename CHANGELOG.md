@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.6.1] - 2026-02-19
+
+### Changed
+
+- Update releasee flow and docs
+
 ## [0.6.0] - 2026-02-19
 
 ### Changed
