@@ -44,7 +44,12 @@
   "scripts": {
     "release:patch": "./scripts/release.sh patch",
     "release:minor": "./scripts/release.sh minor",
-    "release:major": "./scripts/release.sh major"
+    "release:major": "./scripts/release.sh major",
+    "package": "vsce package"
+  },
+  "galleryBanner": {
+    "color": "#1A1008",
+    "theme": "dark"
   },
   "license": "MIT"
 }

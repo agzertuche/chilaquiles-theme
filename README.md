@@ -1,6 +1,21 @@
 # Chilaquiles Theme
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/agzertuche.chilaquiles-theme?label=VS%20Code%20Marketplace&color=E05C4B)](https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme)
+[![Open VSX](https://img.shields.io/open-vsx/v/agzertuche/chilaquiles-theme?label=Open%20VSX&color=6DBF72)](https://open-vsx.org/extension/agzertuche/chilaquiles-theme)
+
 A VS Code color theme inspired by the Mexican dish chilaquiles — warm chili reds, toasted corn golds, and cilantro greens on a charred dark background (or crisp crema white for light mode).
+
+<!-- TODO: Add screenshots
+## Screenshots
+
+### Dark
+
+![Chilaquiles Rojos (Dark)](./screenshots/dark.png)
+
+### Light
+
+![Chilaquiles Rojos (Light)](./screenshots/light.png)
+-->
 
 ## Variants
 
@@ -26,10 +41,11 @@ Colors are mapped to real chilaquiles ingredients across 7 distinct hue lanes. A
 - **Full editor UI theming** — activity bar, sidebar, tabs, status bar, terminal, notifications, inputs, and more
 - **Semantic token support** — enhanced highlighting for TypeScript/JavaScript via language server
 - **Language-specific overrides** — TS/JS generics, arrow functions, interface names, built-in types
+- **WCAG AA compliant** — all token colors meet 4.5:1 contrast ratio minimum
 
 ## Installation
 
-Install via the VS Code Marketplace: search for **Chilaquiles Theme**.
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme) or search for **Chilaquiles Theme** in the Extensions panel.
 
 Then: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) → select **Chilaquiles Rojos (Dark)** or **Chilaquiles Rojos (Light)**.
 
