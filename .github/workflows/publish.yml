@@ -1,9 +1,8 @@
 name: Publish Extension
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -19,13 +18,11 @@ jobs:
         run: npm install -g @vscode/vsce ovsx
 
       - name: Publish to VS Code Marketplace
-        if: success()
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: vsce publish
 
       - name: Publish to Open VSX Registry
-        if: success()
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
         run: ovsx publish --pat $OVSX_PAT

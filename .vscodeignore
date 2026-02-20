@@ -6,6 +6,7 @@ docs/**
 scripts/**
 .github/**
 AGENTS.md
+CHANGELOG.md
 .agents/**
 .agent/**
 .markdownlint.json

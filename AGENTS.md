@@ -14,11 +14,22 @@ Install the extension locally for live testing:
 2. Press `F5` to launch an Extension Development Host with the theme loaded
 3. In the new window: `Cmd+K Cmd+T` → select **Chilaquiles Rojos (Dark)** or **Chilaquiles Rojos (Light)**
 
-To package for publishing:
+### Releasing
+
+Use the release script to bump version, update changelog, and commit:
+
+```bash
+npm run release:patch "Fixed bracket colors"
+npm run release:minor "Added Python-specific scopes"
+npm run release:major "Breaking: renamed theme files"
+```
+
+Then push to `main` and create a **GitHub Release** — the CI workflow (`.github/workflows/publish.yml`) triggers on `release: [published]` and publishes to both the VS Code Marketplace and Open VSX Registry.
+
+To package locally:
 ```bash
 npm install -g @vscode/vsce
 vsce package        # produces chilaquiles-theme-x.x.x.vsix
-vsce publish        # publishes to VS Code Marketplace (requires PAT)
 ```
 
 ## Architecture
@@ -34,7 +45,7 @@ WCAG contrast checker: `node scripts/check-contrast.js "#FOREGROUND" "#BACKGROUN
 
 ## Extension Manifest
 
-[package.json](package.json) registers both themes under `contributes.themes`. The publisher is `agzertuche`. No scripts, no runtime dependencies.
+[package.json](package.json) registers both themes under `contributes.themes`. The publisher is `agzertuche`. Release scripts are defined under `scripts` (see Releasing above). No runtime dependencies.
 
 ## Color Palette
 
