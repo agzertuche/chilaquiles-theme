@@ -4,6 +4,7 @@
   "description": "A VS Code color theme inspired by chilaquiles — warm reds, toasted golds, and cilantro greens.",
   "version": "0.5.0",
   "publisher": "agzertuche",
+  "icon": "./chilaquiles_logo.png",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -21,12 +22,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Chilaquiles Dark",
+        "label": "Chilaquiles Rojos (Dark)",
         "uiTheme": "vs-dark",
         "path": "./themes/chilaquiles-dark.json"
       },
       {
-        "label": "Chilaquiles Light",
+        "label": "Chilaquiles Rojos (Light)",
         "uiTheme": "vs",
         "path": "./themes/chilaquiles-light.json"
       }
