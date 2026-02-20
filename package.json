@@ -30,6 +30,16 @@
         "label": "Chilaquiles Rojos (Light)",
         "uiTheme": "vs",
         "path": "./themes/chilaquiles-light.json"
+      },
+      {
+        "label": "Chilaquiles Verdes (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chilaquiles-verdes-dark.json"
+      },
+      {
+        "label": "Chilaquiles Verdes (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/chilaquiles-verdes-light.json"
       }
     ]
   },

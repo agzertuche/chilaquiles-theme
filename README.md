@@ -3,27 +3,48 @@
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/agzertuche.chilaquiles-theme?label=VS%20Code%20Marketplace&color=E05C4B)](https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme)
 [![Open VSX](https://img.shields.io/open-vsx/v/agzertuche/chilaquiles-theme?label=Open%20VSX&color=6DBF72)](https://open-vsx.org/extension/agzertuche/chilaquiles-theme)
 
-A VS Code color theme inspired by the Mexican dish chilaquiles — warm chili reds, toasted corn golds, and cilantro greens on a charred dark background (or crisp crema white for light mode).
+A VS Code color theme inspired by the Mexican dish chilaquiles —
+two flavor variants, four themes total.
 
 ## Screenshots
 
-### Dark
+### Chilaquiles Rojos (Dark)
 
 ![Chilaquiles Rojos (Dark)](./screenshots/chilaquiles-dark.png)
 
-### Light
+### Chilaquiles Rojos (Light)
 
 ![Chilaquiles Rojos (Light)](./screenshots/chilaquiles-light.png)
--->
+
+### Chilaquiles Verdes (Dark)
+
+![Chilaquiles Verdes (Dark)](./screenshots/chilaquiles-verdes-dark.png)
+
+### Chilaquiles Verdes (Light)
+
+![Chilaquiles Verdes (Light)](./screenshots/chilaquiles-verdes-light.png)
 
 ## Variants
 
-- **Chilaquiles Rojos (Dark)** — Night Comal background (`#1A1008`) with vibrant accent colors
-- **Chilaquiles Rojos (Light)** — Crema background (`#FFFBF5`) with contrast-adjusted tones
+### Rojos
+
+- **Chilaquiles Rojos (Dark)** — Night Comal background (`#1A1008`) with warm
+  chili reds, toasted corn golds, and cilantro greens
+- **Chilaquiles Rojos (Light)** — Crema background (`#FFFBF5`) with
+  contrast-adjusted red and gold tones
+
+### Verdes
+
+- **Chilaquiles Verdes (Dark)** — Charcoal background (`#141614`) with
+  tomatillo green, corn chip gold, and pickled onion purple
+- **Chilaquiles Verdes (Light)** — Sage background (`#E8EDE8`) with deep
+  roasted green, amber gold, and avocado accents
 
 ## The Palette
 
-Colors are mapped to real chilaquiles ingredients across 7 distinct hue lanes. All token colors meet WCAG AA contrast requirements (4.5:1 minimum).
+All token colors meet WCAG AA contrast requirements (4.5:1 minimum).
+
+### Rojos
 
 | Role | Dark | Light |
 | ---- | ---- | ----- |
@@ -34,6 +55,18 @@ Colors are mapped to real chilaquiles ingredients across 7 distinct hue lanes. A
 | Numbers | Pale Gold `#E8C96A` | Egg Yolk Amber `#A05600` |
 | Functions | Bright Cilantro `#6DBF72` | Avocado Green `#2E7D32` |
 | Comments | Adobe `#A67B6A` | Onion Skin `#826858` |
+
+### Verdes
+
+| Role | Dark | Light |
+| ---- | ---- | ----- |
+| Keywords | Tomatillo Green `#4CAF50` | Deep Roasted Green `#2A7530` |
+| Tags / Types | Pickled Onion `#C97DB5` | Pickled Onion `#8E3A65` |
+| Attributes | Pale Onion `#D99DC8` | Pickled Onion `#853678` |
+| Strings / Properties | Corn Chip Gold `#E8B84B` | Tortilla Gold `#7D5C00` |
+| Numbers | Avocado Green `#6FAF5A` | Avocado Green `#3E7530` |
+| Functions | Corn Chip Gold `#D4A017` | Tortilla Gold `#7D5C00` |
+| Comments | Muted Sage `#5C6E5E` | Muted Sage `#4A7050` |
 
 ## Features
 
@@ -46,7 +79,7 @@ Colors are mapped to real chilaquiles ingredients across 7 distinct hue lanes. A
 
 Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme) or search for **Chilaquiles Theme** in the Extensions panel.
 
-Then: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) → select **Chilaquiles Rojos (Dark)** or **Chilaquiles Rojos (Light)**.
+Then: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) → select your preferred variant.
 
 ## License
 

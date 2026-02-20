@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- **Chilaquiles Verdes (Dark)** — charcoal background (`#141614`) with
+  tomatillo green keywords, corn chip gold functions, and pickled onion purple
+  types. All syntax tokens pass WCAG AA.
+- **Chilaquiles Verdes (Light)** — sage background (`#E8EDE8`) with deep
+  roasted green keywords, amber gold functions, and avocado green numbers.
+  All syntax tokens pass WCAG AA.
+
 ## [0.6.1] - 2026-02-19
 
 ### Changed
