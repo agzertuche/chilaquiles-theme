@@ -5,6 +5,8 @@ vsc-extension-quickstart.md
 docs/**
 scripts/**
 .github/**
-CLAUDE.md
+AGENTS.md
+.agents/**
+.agent/**
 .markdownlint.json
 .claude/**
