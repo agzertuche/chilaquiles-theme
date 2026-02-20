@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.6.0] - 2026-02-19
+
+### Changed
+
+- Renamed themes to "Chilaquiles Rojos (Dark)" and "Chilaquiles Rojos (Light)" for future variant support.
+- Expanded token palette from 5 to 7 distinct hue lanes for better syntax differentiation:
+  - Dark: rose chili `#D97085` for tags/types, lilac onion `#C480B0` for attributes.
+  - Light: ancho burgundy `#8C1D35` for tags/types, pickled onion `#A64D79` for attributes.
+- Brightened light theme background from `#FDF8F0` to `#FFFBF5` for improved contrast.
+- Improved light theme readability: keywords, strings, numbers, and functions all boosted.
+
+### Added
+
+- Extension icon (`chilaquiles_logo.png`).
+- `AGENTS.md` consolidating project guidance and full palette reference.
+
+### Removed
+
+- `CLAUDE.md` and `docs/palette.md` (merged into `AGENTS.md`).
+
 ## [0.5.0] - 2026-02-19
 
 ### Added
