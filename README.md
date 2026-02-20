@@ -5,16 +5,15 @@
 
 A VS Code color theme inspired by the Mexican dish chilaquiles — warm chili reds, toasted corn golds, and cilantro greens on a charred dark background (or crisp crema white for light mode).
 
-<!-- TODO: Add screenshots
 ## Screenshots
 
 ### Dark
 
-![Chilaquiles Rojos (Dark)](./screenshots/dark.png)
+![Chilaquiles Rojos (Dark)](./screenshots/chilaquiles-dark.png)
 
 ### Light
 
-![Chilaquiles Rojos (Light)](./screenshots/light.png)
+![Chilaquiles Rojos (Light)](./screenshots/chilaquiles-light.png)
 -->
 
 ## Variants
